@@ -1,0 +1,65 @@
+/* Reset
+================================ */
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: apcupmcd;
+  src: url(/assets/fonts/ApcuPmcdReg.eot);
+  /* IE9 Compat Modes */
+  src: url(/assets/fonts/ApcuPmcdReg.woff2) format("woff2"), url(/assets/fonts/ApcuPmcdReg.woff) format("woff"), url(/assets/fonts/ApcuPmcdReg.ttf) format("truetype"), url(/assets/fonts/ApcuPmcdReg.svg#font_name) format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal; }
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "apcupmcd", Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.7); }
+
+img, video, object {
+  max-width: 100%; }
+
+article, header, nav, section {
+  display: block; }
+
+/* Layout
+================================ */
+.wrapper {
+  margin: 60px auto;
+  max-width: 640px;
+  overflow: hidden; }
+
+.primary-header {
+  float: right;
+  width: 30%; }
+
+@media only screen and (max-width: 670px) {
+  body {
+    font-size: 1.8rem; }
+
+  .wrapper {
+    margin: 30px 15px; } }
+/* Text
+================================ */
+a {
+  color: #1de9b6;
+  font-weight: normal;
+  text-decoration: none; }
+  a:hover {
+    border-bottom: 2px solid #1de9b6; }
+
+p {
+  margin-bottom: 20px; }
+
+.site-header {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #1de9b6; }
+
+.page-content {
+  margin-bottom: 20px; }
